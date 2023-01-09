@@ -1,0 +1,120 @@
+body
+{
+  background-image: url(fondo.jpg);
+  width: 100%; 
+  height: 100%;
+}
+header
+{
+    background-image: url(fondo.jpg);  
+    text-align: center;
+    color: #fefefe;
+    width: 100%;
+    height: 33%;
+}
+.logo
+{
+    width: 8rem;
+    padding: 2rem 0 2rem 0;
+
+}
+h1
+{
+    padding-top: 5px;
+    font-size: 4rem;
+    
+}
+main
+{
+    width: 100%;
+    height: 33%;
+    
+    
+}
+form
+{
+    background:linear-gradient(#1b1b1b,#888888,#1b1b1b); 
+    text-align: center;
+
+}
+.botones
+{
+    margin: 0 20px 0 20px;
+}
+
+textarea
+{
+    border-radius: 8px;
+    border-color: #000;
+    margin:10px;
+
+}
+.texto
+{
+    font-style:normal;
+    font-size:small;
+    background:linear-gradient(black,gray,black);
+    border-color: #5e0808;
+    border-width: 3px;
+    color: #fff;
+ 
+}
+.boton
+{
+
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-style: italic;
+    margin: 0 20px 0 20px;
+    cursor: pointer;
+    background:linear-gradient(#1b1b1b,#888888,#1b1b1b);
+}
+.boton:hover
+{
+  
+    width: 120px;
+    background: #000;
+    background:linear-gradient(#1b1b1b,#c90f0f,#1b1b1b);
+    font-size: 1rem;
+    //transform: rotate(-5deg);
+
+}
+#copy
+{
+    margin-left: 14%;
+}
+footer
+{
+    background-image: url(fondo.jpg);
+    text-align: center;
+    color: #fefefe;  
+    width: 100%; 
+    padding: 2rem 0 2rem 0; 
+
+}
+@media screen and (max-width:480px)
+{
+    h1
+    {
+        padding-top: 20px;
+        font-size: 2.5rem;
+    }
+    body, header, main, footer
+    {
+        width: auto;
+    }
+    .logo
+    {
+        width: 5rem;
+    }
+    .boton
+{
+    margin: auto;
+}
+.botones
+{
+    margin: 1rem;
+}
+}
